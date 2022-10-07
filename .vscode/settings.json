@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./database-pcb-fault/yolov5-master"
+    ]
+}
