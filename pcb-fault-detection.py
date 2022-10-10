@@ -5,7 +5,6 @@ import cv2
 import streamlit as st
 from time import time
 from deep_sort.tracker import Tracker
-import streamlit as st
 
 class PCBFaultDetection:
     """
@@ -26,7 +25,7 @@ class PCBFaultDetection:
 
     def get_video_capture(self):
         """
-        Creates a new video streaming object to extract video frame by frame to make prediction on.
+        Creates a new video streaming object hwo to extract video frame by frame to make prediction on.
         :return: opencv2 video capture object, with lowest quality frame available for video.
         """
         deep = Tracker(10)
